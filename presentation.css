@@ -1,0 +1,36 @@
+em{
+	color: #FFD700
+}
+
+.reveal h1{
+	font-size: 4em;
+
+}
+
+.reveal strong{
+    color: blue;   
+}
+
+section img.noborder{
+	border: None;
+}
+
+.reveal h5{
+	font-size: 0.5em;
+}
+.reveal blockquote{
+    margin: 10px auto;
+}
+section img.rplot {
+	width: 60%;
+	border: None;
+	box-shadow: None;
+}
+section img.bigtable{
+	width:200%;
+
+}
+
+
+.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .caption{text-align:left;margin-top:0}
+

@@ -1,0 +1,107 @@
+{
+"timeline": {
+"startDate": "1988,1,1",
+"headline": "A History of Checkpointing", 
+"text": "<p>Checkpoint and restore utilities have a long history of use in fault-tolerant computing, dating <strong>at least</strong> as far back to work in (Chandy, 1985), (Koo, 1986)  with many more developments since.</p><p>It was long used before this in database recovery. </p> <p> Process checkpoint/restore is perhaps more recent due to the massive recent increase in storage capability", 
+"type": "default", 
+"date": [
+{
+"headline": "Chandy / Lamport", 
+"startDate": "1985,2,1", 
+"endDate": "1985,2,1", 
+"text": "<strong>Determine global state of a distributed system</strong><br/><p><i>K. M. Chandy and L. Lamport. Distributed snapshots: Determining global states of distributed systems. ACM Trans. Comput. Syst., 3(1):63-75, Feb. 1985</i></p>"
+}, 
+{
+"headline": "Koo / Toueg", 
+"startDate": "1986", 
+"endDate": "1986", 
+"text": "<strong>Fault-Tolerant Distributed Checkpoint and Rollback Recovery Algorithm</strong><br/><i>R. Koo and S. Toueg. Checkpointing and rollback-recovery for distributed systems. In Proceedings of 1986 ACM Fall Joint Computer Conference, ACM '86, pages 1150-1158, Los Alamitos, CA, USA, 1986. IEEE Computer Society Press.</i>"
+}, 
+{
+"headline": "libckpt", 
+"startDate": "1995,1,16", 
+"endDate": "1995,1,16", 
+"text": "<p>Libckpt is a portable checkpointing tool for Unix. It provides a mechanism for enabling fault-tolerance for long-running programs. </p><p><i> J. S. Plank , M. Beck , G. Kingsley and K. Li  \"Libckpt: Transparent checkpointing under unix,\"  Conference Proceedings, Usenix Winter 1995 Technical Conference,  pp.213 -223 1995 </i></p>"
+}, 
+{
+"headline": "Dieter & Lump", 
+"startDate": "2001", 
+"endDate": "2001", 
+"text": "<strong> First to provide support for multithreaded programs</strong><p>William R. Dieter and James E. Lumpp Jr. User-level check- pointing for LinuxThreads programs. In USENIX Annual Technical Conference (FREENIX Track), pages 81-92, 2001<p>"
+}, 
+{
+"headline": "Berkeley Lab Checkpoint Restart", 
+"startDate": "2006,6,25", 
+"endDate": "2006,6,25", 
+"text": "<i>Hargrove, Paul H., and Jason C. Duell. \"Berkeley lab checkpoint/restart (blcr) for linux clusters.\" Journal of Physics: Conference Series. Vol. 46. No. 1. IOP Publishing, 2006</i>"
+}, 
+{
+"headline": "MTCP", 
+"startDate": "2006", 
+"endDate": "2006", 
+"text": "<strong>Checkpoint using Native Posix Thread Library (NPTL) </strong><br/><i>Transparent User-Level Checkpointing for the Native POSIX Thread Library for Linux. Michael Rieker, Jason Ansel, and Gene Cooperman. The 2006 International Conference on Parallel and Distributed Processing Techniques and Applications (PDPTA'06). pp. 492--498, Las Vegas, NV. Jun., CSREA Press, 2006</i>"
+}, 
+{
+"headline": "DMTCP", 
+"startDate": "2009,5,23", 
+"endDate": "2009,5,23", 
+"text": "<i>DMTCP: Transparent Checkpointing for Cluster Computations and the Desktop. Jason Ansel, Kapil Arya and Gene Cooperman. 23rd IEEE International Parallel and Distributed Processing Symposium (IPDPS'09). 12 pages, Rome, Italy. May, 2009</i>"
+}, 
+{
+"headline": "libckp", 
+"text": "Wang, Yi-Min, et al. \"Checkpointing and its applications.\" Fault-Tolerant Computing, 1995. FTCS-25. Digest of Papers., Twenty-Fifth International Symposium on. IEEE, 1995.", 
+"endDate": "1995,6,1", 
+"startDate": "1995,6,1"
+}, 
+{
+"headline": "Russell", 
+"text": "<p>D. L. Russell, State restoration in systems of communicating processes, IEEE Transactions on Software Engineering, vol. SE-6, no. 2, March 1980, pp. 183-194</p>", 
+"endDate": "1980,3,1", 
+"startDate": "1980,3,1"
+}, 
+{
+"headline": "Randell", 
+"text": "<p>Randell, B., \"System structure for software fault tolerance,\" Software Engineering, IEEE Transactions on , vol.SE-1, no.2, pp.220,232, June 1975</p>", 
+"endDate": "1975,6,1", 
+"startDate": "1975,6,1"
+}, 
+{
+"headline": "Linux", 
+"text": "<p>Linux Kernel Released</p>",
+"endDate": "1991,8,25", 
+"startDate": "1991,8,25"
+}, 
+{
+
+"headline": "EPCKPT", 
+"text": "<p><i>Eduardo Pinheiro. EPCKPT - a checkpoint utility for the Linux kernel. http://www.research.rutgers.edu/~edpin/epckpt/</i></p>",
+"endDate": "1998,4,8", 
+"startDate": "1998,4,8"
+},
+{
+"headline": "DejaVu", 
+"text": "<p><i>Joseph Ruscio, Michael Heffner, and Srinidhi Varadarajan. DejaVu: Transparent user-level checkpointing, migration, and recovery for distributed systems. In IEEE International Parallel and Distributed Processing Symposium, March 2007</i></p>",
+"endDate": "2007,3,1", 
+"startDate": "2007,3,1"
+},
+{
+"headline": "ZapC",
+"text": "<p><i>Oren Laadan, Dan Phung, and Jason Nieh. Transparent networked checkpoint-restart for commodity clusters. In 2005 IEEE International Conference on Cluster Computing. IEEE Press, 2005</i></p>",
+"startDate": "2005,1,1",
+"endDate": "2005,1,1"
+},
+{
+"headline": "CHPOX",
+"text": "<p><i>Sudakov, O.O.; Meshcheriakov, I.S.; Boyko, Y.V., CHPOX: Transparent Checkpointing System for Linux Clusters, Intelligent Data Acquisition and Advanced Computing Systems: Technology and Applications, 2007. IDAACS 2007. 4th IEEE Workshop on , vol., no., pp.159,164, 6-8 Sept. 2007</i></p>",
+"startDate": "2007,9,6",
+"endDate": "2007,9,6"
+},
+{
+"headline": "libhashckpt", 
+"text": "<i>Kurt B. Ferreira, Rolf Riesen, Ron Brighwell, Patrick Bridges, and Dorian Arnold. 2011. libhashckpt: hash-based incremental checkpointing using GPUs. In Proceedings of the 18th European MPI Users Group conference on Recent advances in the message passing interface (EuroMPI11), Yiannis Cotronis, Anthony Danalis, Dimitrios S. Nikolopoulos, and Jack Dongarra (Eds.). Springer-Verlag, Berlin, Heidelberg, 272-281.</i>", 
+"endDate": "2011,9,18", 
+"startDate": "2011,9,18"
+}
+]
+}
+}

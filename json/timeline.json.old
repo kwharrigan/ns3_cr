@@ -1,0 +1,34 @@
+{
+	"timeline":
+    {
+        "headline":"History of Checkpointing",
+        "type":"default",
+        "text":"<p>Process checkpoint and restore utilities have a long history of use in fault-tolerant computing, dating at least as far back to work in (Koo, 1986) and (Chandy, 1985), with many more developments since.</p>",
+		"date": [
+		{
+			"startDate": "1985,1,1",
+			"endDate": "1985,1,2",
+			"headline": "Chandy and Lamport",
+			"text":"<p>K. M. Chandy and L. Lamport. Distributed snapshots: Determining global states of distributed systems. ACM Trans. Comput. Syst., 3(1):63?75, Feb. 1985</p>"
+		}
+		{
+			"startDate": "1986,1,1",
+			"endDate": "1986,1,2",
+			"headline": "Koo",
+			"text":"<p>Koo paper</p>"
+		}
+		{
+			"startDate": "1995,1,1",
+			"endDate": "1995,1,2",
+			"headline": "Koo",
+			"text":"<p>Koo paper</p>"
+		}
+		{
+			"startDate":"2009,1,1",
+			"endDate":"2009,1,2",
+			"headline":"DMTCP",
+			"text":"<p>DMTCP paper published</p>"
+		}
+		]
+	}
+}
